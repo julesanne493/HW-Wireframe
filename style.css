@@ -1,0 +1,16 @@
+body
+{
+background-color:#777;
+font-family: Arial, Helvitica Neue, Helvetica, sans-serif;
+font-size: 18px;
+width: 960px;
+
+}
+
+.header {
+    background-color: #ebebeb;
+    color: #777;
+    text-align: center;
+    padding: 20px;
+    
+}

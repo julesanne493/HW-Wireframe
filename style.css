@@ -1,6 +1,7 @@
 body
 {
 background-color:#777;
+color: #777;
 font-family: Arial, Helvitica Neue, Helvetica, sans-serif;
 font-size: 18px;
 font-weight: normal;
@@ -9,13 +10,15 @@ margin: auto;
 
 }
 
-h1 {
+header {
     background-color: #ebebeb;
     color: #777;
     text-align: center;
     padding: 25px;
     font-size: 18px;
-    font-weight: normal
+    font-weight: normal;
+    margin: 25px;
+    margin-bottom: 15px;
 }
 
 nav {  background-color: #ebebeb;
@@ -24,34 +27,44 @@ nav {  background-color: #ebebeb;
     padding: 25px;
     font-size: 18px;
     font-weight: normal;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
 }
 
-.section {
+
+section {
     background-color: #ebebeb;
     color: #777;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 465px;
+    width: 410px;
+    padding: 20px;
     font-size: 18px;
     font-weight: normal;
     float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+   
 }
 
-#article{
+article{
     background-color: #777;
     color: #ebebeb;
     text-align: center;
     font-size: 18px;
     font-weight: normal;
-    overflow: auto;
-    padding: 10px;
+    padding: 15px;
     margin-top: 20px;
+    overflow: auto;
     
 }
 
-#h1{
+h1{
     background-color: #ebebeb;
+    color: #777;
     padding: 5px;
     margin-bottom: 10px;
     margin-top: 5px;
@@ -59,23 +72,25 @@ nav {  background-color: #ebebeb;
     font-weight: bold;
 }
 
-#aside {
+aside {
     background-color: #ebebeb;
     color: #777;
     padding: 15px;
     text-align: center;
     font-size: 18px;
     font-weight: normal;
+    margin-left: 5px;
+    margin-right: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
     float: right;
-    width: 465px;
-    height: 253px;
+    width: 410px;
+    height: 179px;
 
 
 }
 
-#p{
+p{
     background-color: #ebebeb;
     color: #777;
     padding: 5px;
@@ -84,89 +99,14 @@ nav {  background-color: #ebebeb;
     font-size: 18px;
 }
 
-#footer {
+footer {
     background-color: #ebebeb;
     color: #777;
     text-align: center;
     padding: 25px;
     font-size: 18px;
     font-weight: normal;
+    margin: 25px;
+    margin-bottom: 15px;
+    clear: both;
 }
-/*  /**
- * Float Layout Activity
- **/
-
-* {
-    box-sizing: border-box;
-    text-align: center;
-  }
-  
-  body {
-    font-size: 24px;
-    line-height: 32px;
-    color: #333;
-  }
-  
-  header {
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #333;
-    background: #ccc;
-  }
-  
-  section {
-    padding: 20px;
-    margin-bottom: 20px;
-    background: #ccc;
-  }
-  
-  #left {
-    float: left;
-    width: 33.3%;
-    color: #fff;
-    background: #666;
-  }
-  
-  #middle {
-    float: left;
-    width: 33.3%;
-    color: #fff;
-    background: #888;
-  }
-  
-  #right {
-    float: left;
-    width: 33.3%;
-    color: #fff;
-    background: #666;
-  }
-  
-  #full {
-    width: 100%;
-    overflow: auto;
-    clear: both;
-    background: #eee;
-  }
-  
-  #division {
-    padding: 20px;
-    margin-top: 20px;
-    background: #6ea3da;
-  }
-  
-  aside {
-    float: left;
-    width: 33%;
-    height: 200px;
-    padding: 20px;
-    margin-left: 30px;
-    background: #fff;
-    border: 1px solid #eee;
-  }
-  
-  footer {
-    padding: 20px;
-    clear: both;
-    background: #ccc;
-  }
-  
